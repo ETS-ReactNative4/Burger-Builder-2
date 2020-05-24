@@ -1,11 +1,15 @@
+
 import * as actionTypes from './actionTypes';
 import axios from 'axios'
+require('dotenv').config();
+const api_key = process.env.REACT_APP_API_KEY;
 
 export const authStart = () => {
     return{
         type:actionTypes.AUTH_START
     }
 }
+
 
 export const authSuccess = (token, userId) =>{
 
@@ -47,9 +51,9 @@ export const auth = (email, password, isSignup) =>{
             password:password,
             returnSecureToken:true
         };
-        let url = "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyCy8Z2VGCTMa3V89mQoFfsSGQwCp8X3OKc";
+        let url = `https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=${api_key}`;
         if(!isSignup){
-            url = "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyCy8Z2VGCTMa3V89mQoFfsSGQwCp8X3OKc";
+            url = `https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=${api_key}`;
         }
         axios.post(url, authData)
             .then(response =>{
