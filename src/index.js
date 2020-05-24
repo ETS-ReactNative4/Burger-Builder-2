@@ -20,8 +20,7 @@ const composeEnhancers = process.env.NODE_ENV ===  'development' ? window.__REDU
 const rootReducer = combineReducers({
     burgerBuilder: burgerBuilderReducer,
     order: orderReducer,
-    auth:authReducer
-    
+    auth:authReducer 
 });
 
 const store = createStore(rootReducer, composeEnhancers(

@@ -1,0 +1,76 @@
+[debug] [2020-05-24T21:22:57.400Z] ----------------------------------------------------------------------
+[debug] [2020-05-24T21:22:57.402Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Smitt\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2020-05-24T21:22:57.402Z] CLI Version:   8.4.0
+[debug] [2020-05-24T21:22:57.402Z] Platform:      win32
+[debug] [2020-05-24T21:22:57.403Z] Node Version:  v14.2.0
+[debug] [2020-05-24T21:22:57.403Z] Time:          Sun May 24 2020 17:22:57 GMT-0400 (Eastern Daylight Time)
+[debug] [2020-05-24T21:22:57.403Z] ----------------------------------------------------------------------
+[debug] [2020-05-24T21:22:57.404Z] 
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[debug] [2020-05-24T21:23:19.484Z] ----------------------------------------------------------------------
+[debug] [2020-05-24T21:23:19.486Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Smitt\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-05-24T21:23:19.486Z] CLI Version:   8.4.0
+[debug] [2020-05-24T21:23:19.486Z] Platform:      win32
+[debug] [2020-05-24T21:23:19.486Z] Node Version:  v14.2.0
+[debug] [2020-05-24T21:23:19.487Z] Time:          Sun May 24 2020 17:23:19 GMT-0400 (Eastern Daylight Time)
+[debug] [2020-05-24T21:23:19.487Z] ----------------------------------------------------------------------
+[debug] [2020-05-24T21:23:19.487Z] 
+[debug] [2020-05-24T21:23:19.496Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-05-24T21:23:19.525Z] Error: Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information.
+    at GoogleAuth.getApplicationDefaultAsync (C:\Users\Smitt\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\google-auth-library\build\src\auth\googleauth.js:160:19)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async GoogleAuth.getClient (C:\Users\Smitt\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\google-auth-library\build\src\auth\googleauth.js:502:17)
+    at async GoogleAuth.getAccessToken (C:\Users\Smitt\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\google-auth-library\build\src\auth\googleauth.js:524:24)
+[error] 
+[error] Error: Failed to authenticate, have you run firebase login?
+[debug] [2020-05-24T21:23:28.751Z] ----------------------------------------------------------------------
+[debug] [2020-05-24T21:23:28.753Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Smitt\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2020-05-24T21:23:28.753Z] CLI Version:   8.4.0
+[debug] [2020-05-24T21:23:28.753Z] Platform:      win32
+[debug] [2020-05-24T21:23:28.753Z] Node Version:  v14.2.0
+[debug] [2020-05-24T21:23:28.754Z] Time:          Sun May 24 2020 17:23:28 GMT-0400 (Eastern Daylight Time)
+[debug] [2020-05-24T21:23:28.755Z] ----------------------------------------------------------------------
+[debug] [2020-05-24T21:23:28.755Z] 
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[debug] [2020-05-24T21:24:13.414Z] ----------------------------------------------------------------------
+[debug] [2020-05-24T21:24:13.415Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Smitt\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2020-05-24T21:24:13.416Z] CLI Version:   8.4.0
+[debug] [2020-05-24T21:24:13.416Z] Platform:      win32
+[debug] [2020-05-24T21:24:13.416Z] Node Version:  v14.2.0
+[debug] [2020-05-24T21:24:13.416Z] Time:          Sun May 24 2020 17:24:13 GMT-0400 (Eastern Daylight Time)
+[debug] [2020-05-24T21:24:13.417Z] ----------------------------------------------------------------------
+[debug] [2020-05-24T21:24:13.417Z] 
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[debug] [2020-05-24T21:29:02.297Z] ----------------------------------------------------------------------
+[debug] [2020-05-24T21:29:02.299Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Smitt\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2020-05-24T21:29:02.299Z] CLI Version:   8.4.0
+[debug] [2020-05-24T21:29:02.299Z] Platform:      win32
+[debug] [2020-05-24T21:29:02.299Z] Node Version:  v14.2.0
+[debug] [2020-05-24T21:29:02.300Z] Time:          Sun May 24 2020 17:29:02 GMT-0400 (Eastern Daylight Time)
+[debug] [2020-05-24T21:29:02.300Z] ----------------------------------------------------------------------
+[debug] [2020-05-24T21:29:02.300Z] 
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[debug] [2020-05-24T21:33:15.480Z] ----------------------------------------------------------------------
+[debug] [2020-05-24T21:33:15.482Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Smitt\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2020-05-24T21:33:15.482Z] CLI Version:   8.4.0
+[debug] [2020-05-24T21:33:15.482Z] Platform:      win32
+[debug] [2020-05-24T21:33:15.482Z] Node Version:  v14.2.0
+[debug] [2020-05-24T21:33:15.483Z] Time:          Sun May 24 2020 17:33:15 GMT-0400 (Eastern Daylight Time)
+[debug] [2020-05-24T21:33:15.483Z] ----------------------------------------------------------------------
+[debug] [2020-05-24T21:33:15.483Z] 
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[debug] [2020-05-24T21:35:10.513Z] ----------------------------------------------------------------------
+[debug] [2020-05-24T21:35:10.514Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Smitt\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login –reauth
+[debug] [2020-05-24T21:35:10.515Z] CLI Version:   8.4.0
+[debug] [2020-05-24T21:35:10.515Z] Platform:      win32
+[debug] [2020-05-24T21:35:10.515Z] Node Version:  v14.2.0
+[debug] [2020-05-24T21:35:10.516Z] Time:          Sun May 24 2020 17:35:10 GMT-0400 (Eastern Daylight Time)
+[debug] [2020-05-24T21:35:10.516Z] ----------------------------------------------------------------------
+[debug] [2020-05-24T21:35:10.516Z] 
+[error] 
+[error] Error: Too many arguments. Run firebase help login for usage instructions
