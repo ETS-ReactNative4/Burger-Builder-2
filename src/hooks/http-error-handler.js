@@ -11,9 +11,12 @@ export default httpClient => {
                 return req;
                 
             } );
-           const resInterceptor = httpClient.interceptors.response.use( res => res, err => {
+           const resInterceptor = httpClient.interceptors.response.use( 
+               res => res, 
+               err => {
                 setError(err)
-            } );
+            } 
+            );
         
             useEffect(()=>{
                 return () => {

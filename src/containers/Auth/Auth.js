@@ -1,11 +1,13 @@
 import React, { useState, useEffect }from 'react';
 import { connect } from 'react-redux';
+import {Redirect} from 'react-router-dom';
+
 import Input from '../../components/UI/Input/Input';
 import Button from '../../components/UI/Button/Button'
 import classes from './Auth.module.css';
 import * as actions from '../../store/actions/index';
 import Spinner from '../../components/UI/Spinner/Spinner';
-import {Redirect} from 'react-router-dom';
+
 import { updateObject, checkValidity} from '../../shared/utility';
 
 const auth = props =>{
@@ -41,13 +43,13 @@ const auth = props =>{
         });
         const [isSignup, setIsSignup] = useState(true) 
 
-        const { buildingBurger, authRedirectPath , onSetAuthRedirectPath} = props
-        
-        useEffect(()=>{
-            if(!buildingBurger && authRedirectPath !== "/"){
-                onSetAuthRedirectPath
-            }
-        },[buildingBurger, authRedirect , onSetAuthRedirectPath]);
+        const { buildingBurger, authRedirectPath, onSetAuthRedirectPath } = props;
+
+        useEffect(() => {
+          if (!buildingBurger && authRedirectPath !== '/') {
+            onSetAuthRedirectPath
+          }
+        }, [buildingBurger, authRedirectPath, onSetAuthRedirectPath]);
 
 
    

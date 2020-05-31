@@ -1,4 +1,4 @@
-import React, { Component, useEffect } from 'react';
+import React from 'react';
 
 import classes from './Modal.css';
 import Auxiliary from '../../../hoc/Auxiliary/Auxiliary';
