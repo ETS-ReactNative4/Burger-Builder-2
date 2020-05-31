@@ -45,7 +45,7 @@ const auth = props =>{
         
         useEffect(()=>{
             if(!buildingBurger && authRedirectPath !== "/"){
-                onSetAuthRedirectPath()
+                onSetAuthRedirectPath
             }
         },[buildingBurger, authRedirect , onSetAuthRedirectPath]);
 
